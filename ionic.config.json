@@ -1,0 +1,7 @@
+{
+  "name": "kreditica",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

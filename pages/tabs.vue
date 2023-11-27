@@ -1,0 +1,24 @@
+<template>
+  <ion-page>
+    <ion-content>
+      <ion-tabs>
+        <ion-router-outlet />
+        
+        <ion-tab-bar slot="bottom">
+          <ion-tab-button tab="tab1" href="/tabs/tab1page">
+            <ion-icon :icon="ioniconsHomeOutline" />
+            <ion-label>Form</ion-label>
+          </ion-tab-button>
+          <ion-tab-button tab="tab2" href="/tabs/tab2page">
+            <ion-icon :icon="ioniconsImagesOutline" />
+            <ion-label>Historial</ion-label>
+            </ion-tab-button>
+          <ion-tab-button tab="tab3" href="/tabs/tab3page">
+            <ion-icon :icon="ioniconsPersonAddOutline" />
+            <ion-label>User</ion-label>
+          </ion-tab-button>
+        </ion-tab-bar>
+      </ion-tabs>
+    </ion-content>
+  </ion-page>
+</template>
