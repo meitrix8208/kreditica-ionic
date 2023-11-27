@@ -82,7 +82,9 @@
               </ion-row>
               <ion-row>
                 <ion-col>Resultado</ion-col>
-                <ion-col>{{ registro.label }}</ion-col>
+                <ion-col>{{
+                  registro.label === "1" ? "Aprobado" : "Rechazado"
+                }}</ion-col>
               </ion-row>
               <ion-row v-if="token?.roles[0] === 'admin'">
                 <ion-col>
