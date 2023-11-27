@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public:{
-      API_URL: "https://2a9d-2800-484-6a83-b010-e9c6-88d1-4031-6d85.ngrok-free.app"
+      API_URL: "https://flask-production-a622.up.railway.app"
     }
     
   }
